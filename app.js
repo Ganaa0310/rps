@@ -42,10 +42,12 @@ function play(playerChoice) {
     }
     
 }
-function reset(){
-    cPoint.innerText= "Computer Point: 0";
-    pPoint.innerText= "Player Point: 0";
-    cChoice.innerText= "Computer Choice:";
-    pChoice.innerText= "Player Choice:"
-    winner.innerText="Winner:"
+function reset() {
+    computerScore = 0;
+    playerScore = 0;
+    cPoint.innerText = "Computer Point: 0";
+    pPoint.innerText = "Player Point: 0";
+    cChoice.innerText = "Computer Choice:";
+    pChoice.innerText = "Player Choice:";
+    winner.innerText = "Winner:";
 }
